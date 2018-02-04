@@ -58,7 +58,7 @@ public class Circle {
 	}
 	
 	/**A method contains(double x, double y) that returns true if the 
-	   specified point (x, y) is inside this circle. See Figure 10.14(a). */
+	   specified point (x, y) is inside this circle.  */
 	public boolean contains(double px, double py) {
 		return distance(this.x,this.y,px,py) < radius;
 			
